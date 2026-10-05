@@ -1,3 +1,2 @@
 # VistaNest
-
 VistaNest is a responsive image-search interface where users will eventually search for topics and browse the results as a flexible image grid. I chose a teal and orange colour palette to give the app a fresh and energetic identity. I added quick-pick topic chips so users can discover common search ideas easily. I also used a sticky header and a Clear control to keep navigation and search actions convenient while browsing.
