@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VistaNest - Discover Images</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="brand">
+      <span class="brand-mark">VN</span>
+
+      <div>
+        <h1>VistaNest</h1>
+        <p>Find images that bring your ideas to life.</p>
+      </div>
+    </div>
+
+  </header>
+
+
+  <main class="main-content">
+
+    <section class="search-section">
+
+      <div class="intro">
+        <p class="eyebrow">IMAGE EXPLORER</p>
+
+        <h2>What would you like to discover?</h2>
+
+        <p>
+          Search for photos, places, people, nature, and more.
+        </p>
+      </div>
+
+
+      <form class="search-form">
+
+        <label for="searchInput">
+          Search for an image
+        </label>
+
+        <div class="search-row">
+
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Try “mountains” or “city lights”"
+          >
+
+          <button type="submit" id="searchButton">
+            Search
+          </button>
+
+          <button type="button" id="clearButton">
+            Clear
+          </button>
+
+        </div>
+
+      </form>
+
+
+      <div class="quick-picks">
+
+        <span>Try a topic:</span>
+
+        <button type="button">Nature</button>
+        <button type="button">Cities</button>
+        <button type="button">Animals</button>
+        <button type="button">Space</button>
+
+      </div>
+
+    </section>
+
+
+    <section class="results-section">
+
+      <div class="results-header">
+
+        <h2>Discoveries</h2>
+
+        <p id="resultCount">
+          Results will appear here
+        </p>
+
+      </div>
+
+
+      <div id="results" class="results-grid"></div>
+
+
+      <div id="emptyState" class="empty-state">
+
+        <div class="empty-icon">✦</div>
+
+        <h3>Search to see results</h3>
+
+        <p>
+          Your image discoveries will appear here.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

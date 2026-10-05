@@ -1,0 +1,1 @@
+// Part 2: image search functionality will be added here.
